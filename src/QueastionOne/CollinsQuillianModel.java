@@ -1,169 +1,13 @@
 package QueastionOne;
 
+import QueastionOne.entities.*;
+import QueastionOne.traits.*;
+import QueastionOne.traits.IsLivingThing;
+import QueastionOne.types.*;
+
 import java.util.*;
 
-interface CanGrow {
-}
-
-interface IsAlive {
-}
-
-interface CanMove {
-}
-
-interface HasSkin {
-}
-
-interface CanFly {
-}
-
-interface HasWings {
-}
-
-interface HasFeathers {
-}
-
-interface CanSing {
-}
-
-interface CanSwim {
-}
-
-interface HasScales {
-}
-
-interface HasGills {
-}
-
-interface IsRed {
-}
-
-interface IsYellow {
-}
-
-interface HasRoots {
-}
-
-interface HasBark {
-}
-
-interface HasBranch {
-}
-
-interface IsBig {
-}
-
-interface IsGreen {
-}
-
-interface IsBeautiful {
-}
-
-interface HasPetals {
-}
-
-interface HasLeaves {
-}
-
-interface IsFlower {
-}
-
-interface IsTree {
-}
-
-interface IsPlant {
-}
-
-interface IsLivingThing {
-}
-
-interface IsAnimal {
-}
-
-interface IsBird {
-}
-
-interface IsFish{
-}
-
-abstract class Entity {
-    public abstract String getName();
-
-    public boolean hasTrait(Class<?> trait) {
-        return trait.isInstance(this);
-    }
-}
-
-abstract class LivingThing extends Entity implements IsLivingThing, CanGrow, IsAlive {
-}
-
-abstract class Animal extends LivingThing implements IsAnimal, CanMove, HasSkin {
-}
-
-abstract class Bird extends Animal implements IsBird, CanFly, HasWings, HasFeathers {
-}
-
-abstract class Fish extends Animal implements IsFish, CanSwim, HasScales, HasGills {
-}
-
-abstract class Plant extends LivingThing implements IsPlant, HasRoots {
-}
-
-abstract class Tree extends Plant implements IsTree, HasBark, HasBranch, IsBig {
-}
-
-abstract class Flower extends Plant implements IsFlower,IsBeautiful, HasLeaves, HasPetals {
-}
-
-class Salmon extends Fish implements IsRed {
-    public String getName() {
-        return "סלמון";
-    }
-}
-
-class Sunfish extends Fish implements IsYellow {
-    public String getName() {
-        return "דג שמש";
-    }
-}
-
-class Canary extends Bird implements CanSing, IsYellow {
-    public String getName() {
-        return "קנרית";
-    }
-}
-
-class Robin extends Bird implements IsRed {
-    public String getName() {
-        return "אדום החזה";
-    }
-}
-
-class Daisy extends Flower implements IsYellow {
-    public String getName() {
-        return "מרגנית";
-    }
-}
-
-class Rose extends Flower implements IsRed {
-    public String getName() {
-        return "ורד";
-    }
-}
-
-class Oak extends Tree implements HasLeaves {
-    public String getName() {
-        return "אלון";
-    }
-}
-
-class Pine extends Tree implements IsGreen {
-    public String getName() {
-        return "אורן";
-    }
-}
-
-public class CollinsQuillianModel {
+ public class CollinsQuillianModel {
 
     static Map<String, Entity> entities = new HashMap<>();
     static Map<Integer, TraitQuestion> questions = new LinkedHashMap<>();
@@ -247,15 +91,7 @@ public class CollinsQuillianModel {
         entities.put("אורן", new Pine());
     }
 
-    static class TraitQuestion {
-        String label;
-        Class<?> traitInterface;
 
-        public TraitQuestion(String label, Class<?> traitInterface) {
-            this.label = label;
-            this.traitInterface = traitInterface;
-        }
-    }
 
     static void addTraitQuestions() {
         int i = 1;

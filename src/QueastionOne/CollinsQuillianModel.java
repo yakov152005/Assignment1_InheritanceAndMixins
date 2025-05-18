@@ -71,7 +71,13 @@ import java.util.*;
                     } else {
                         TraitQuestion question = questions.get(questionChoice);
                         boolean result = entity.hasTrait(question.traitInterface);
-                        System.out.println("תשובה: " + (result ? "כן" : "לא"));
+                        if (result) {
+                            System.out.println("תשובה: כן");
+                        } else {
+                            System.out.println("תשובה: לא");
+                            System.out.println("← עץ היררכיית המחלקות של " + entity.getName() + ":");
+                            printClassHierarchy(entity.getClass());
+                        }
                     }
                 } catch (NumberFormatException e) {
                     System.out.println("אנא הזן מספר תקף.");
@@ -145,4 +151,26 @@ import java.util.*;
         questions.put(i++, new TraitQuestion("האם יש לו עלים?", HasLeaves.class));
         questions.put(i++, new TraitQuestion("האם הוא ירוק?", IsGreen.class));
     }
-}
+
+
+     static void printClassHierarchy(Class<?> clazz) {
+         List<Class<?>> hierarchy = new ArrayList<>();
+         while (clazz != null && clazz != Object.class) {
+             hierarchy.add(clazz);
+             clazz = clazz.getSuperclass();
+         }
+         Collections.reverse(hierarchy);
+
+         for (int i = 0; i < hierarchy.size(); i++) {
+             Class<?> cls = hierarchy.get(i);
+             String indent = "  ".repeat(i);
+             System.out.println(indent + "↳ " + cls.getSimpleName());
+
+             Class<?>[] interfaces = cls.getInterfaces();
+             for (Class<?> iface : interfaces) {
+                 System.out.println(indent + "    ↪ implements " + iface.getSimpleName());
+             }
+         }
+     }
+
+ }

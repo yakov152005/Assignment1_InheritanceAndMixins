@@ -5,74 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f08ffd6-1bde-446a-b8b5-4a4d593f2004" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/TraitQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/LivingThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/entities/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/CanFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/CanGrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/CanMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/CanSing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/CanSwim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasBark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasBranch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasFeathers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasGills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasLeaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasPetals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasRoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasScales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasSkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/HasWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsAlive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsBeautiful.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsBig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsGreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsLivingThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsPlant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsRed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/traits/IsYellow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Canary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Daisy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Oak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Pine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Robin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Rose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Salmon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionOne/types/Sunfish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/ElectricMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/ElectronicDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/EntityName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/FrequencyDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/MechanicalDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/MechanicalMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/Oven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/devices/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/remote/SmartRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/HomeDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/KitchenDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/LivingRoomDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/Speed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueastionTwo/traits/TemperatureControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueastionOne/CollinsQuillianGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueastionOne/CollinsQuillianGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QueastionOne/CollinsQuillianModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueastionOne/CollinsQuillianModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueastionTwo/SmartHomeMixins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueastionTwo/SmartHomeMixins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,39 +26,39 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2x03WfLDaj4vkdpXyZe31hlGCnS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CollinsQuillianGUI.executor": "Run",
-    "Application.CollinsQuillianModel.executor": "Run",
-    "Application.SmartHomeMixins.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CollinsQuillianGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollinsQuillianModel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartHomeMixins.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\קוד\Code - Java\Assignment1_InheritanceAndMixins\screenshots" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmartHomeMixins">
+  <component name="RunManager" selected="Application.CollinsQuillianModel">
     <configuration name="CollinsQuillianGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueastionOne.CollinsQuillianGUI" />
       <module name="Assignment1_InheritanceAndMixins" />
@@ -169,9 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollinsQuillianModel" />
         <item itemvalue="Application.SmartHomeMixins" />
         <item itemvalue="Application.CollinsQuillianGUI" />
-        <item itemvalue="Application.CollinsQuillianModel" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747061198508</updated>
-      <workItem from="1747061199754" duration="3080000" />
+      <workItem from="1747061199754" duration="4156000" />
+      <workItem from="1747563324954" duration="1009000" />
     </task>
     <servers />
   </component>
